@@ -4,10 +4,10 @@
  * Description:       Display a WebGL shader
  * Requires at least: 5.8
  * Requires PHP:      7.0
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Zebra North
- * License:           Proprietary
- * License URI:
+ * License:           GPLv3
+ * License URI:       https://www.gnu.org/licenses/gpl-3.0.en.html
  * Text Domain:       webgl-shader
  *
  * @package           zebra-north

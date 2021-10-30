@@ -1,6 +1,6 @@
 {
 	"name": "webgl-shader",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Display a WebGL shader",
 	"author": "Zebra North",
 	"license": "Proprietary",

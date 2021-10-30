@@ -1,10 +1,13 @@
 === WebGL Shader ===
-Contributors:      Zebra North
-Tags:              block shader shadertoy webgl webgl2 opengl graphics
+Contributors:      zebranorth
+Donate link:       https://paypal.me/zebranorth
+Tags:              block, shader, shadertoy, webgl, webgl2, opengl, graphics
+Requires at least: 5.8.0
 Tested up to:      5.8.0
-Stable tag:        1.0.0
-License:           Proprietary
-License URI:
+Stable tag:        1.0.1
+Requires PHP:      7.0
+License:           GPLv3
+License URI:       https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Display a WebGL shader.
 
@@ -13,6 +16,8 @@ Display a WebGL shader.
 This plugin allows you to display a WebGL2 fragment shader, compatible with https://shadertoy.com
 
 Simply copy and paste the code of your fragment shader into the edit box.
+
+This plugin makes use of the open source "gl-matrix" library by Brandon Jones and Colin MacKensie IV.
 
 == Installation ==
 
@@ -24,6 +29,9 @@ Simply copy and paste the code of your fragment shader into the edit box.
 1. A shader in action.
 
 == Changelog ==
+
+= 1.0.1 =
+* Minor updates so the plugin can be hosted on wordpress.org.
 
 = 1.0.0 =
 * Release
