@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name:       WebGL Shader
+ * Plugin Name:       Display WebGL Shader
  * Description:       Display a WebGL shader
  * Requires at least: 5.8
  * Requires PHP:      7.0
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Zebra North
  * License:           GPLv3
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.en.html
- * Text Domain:       webgl-shader
+ * Text Domain:       display-webgl-shader
  *
  * @package           zebra-north
  */
@@ -29,7 +29,7 @@ function zebra_north_webgl_shader_block_init() {
  */
 function zebra_north_webgl_shader_enqueue_scripts() {
 	wp_enqueue_script('zebra_north_gl_matrix', plugin_dir_url(__FILE__) . '/gl-matrix.js');
-	wp_enqueue_script('zebra_north_webgl_shader', plugin_dir_url(__FILE__) . '/webgl-shader.js');
+	wp_enqueue_script('zebra_north_webgl_shader', plugin_dir_url(__FILE__) . '/display-webgl-shader.js');
 }
 
 add_action( 'init', 'zebra_north_webgl_shader_block_init' );
