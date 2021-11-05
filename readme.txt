@@ -1,4 +1,4 @@
-=== WebGL Shader ===
+=== Display WebGL Shader ===
 Contributors:      zebranorth
 Donate link:       https://paypal.me/zebranorth
 Tags:              block, shader, shadertoy, webgl, webgl2, opengl, graphics
@@ -19,17 +19,18 @@ Simply copy and paste the code of your fragment shader into the edit box.
 
 This plugin makes use of the open source "gl-matrix" library by Brandon Jones and Colin MacKensie IV.
 
-Your shader code should look like this:
+Your shader code should look like the example below.  The mainImage() function is called once for each pixel.
 
-void mainImage( out vec4 fragColor, in vec2 fragCoord )
+```
+void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
-    // Normalized pixel coordinates (from 0 to 1)
-    vec2 uv = fragCoord/iResolution.xy;
-
+    // Normalized pixel coordinates (from 0 to 1).
+    vec2 uv = fragCoord / iResolution.xy;
 
     // Output to screen as (r, g, b, alpha).
     fragColor = vec4(uv.x, uv.y, 0.0, 1.0);
 }
+```
 
 == Installation ==
 
