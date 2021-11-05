@@ -1,7 +1,9 @@
 'use strict';
 
 /**
- * WebGL Shader WordPress Block v1.0.1.
+ * Display WebGL Shader WordPress Block.
+ *
+ * https://mrzebra.co.uk/
  *
  * Copyright (c) Zebra North, 2021
  */
