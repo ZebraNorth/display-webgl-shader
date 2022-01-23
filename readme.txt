@@ -3,7 +3,7 @@ Contributors:      zebranorth
 Donate link:       https://paypal.me/zebranorth
 Tags:              block, shader, shadertoy, webgl, webgl2, opengl, graphics
 Requires at least: 5.8.0
-Tested up to:      5.8.0
+Tested up to:      5.9.0
 Stable tag:        1.0.1
 Requires PHP:      7.0
 License:           GPLv3
