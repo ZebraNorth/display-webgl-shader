@@ -1,9 +1,9 @@
 {
-	"name": "webgl-shader",
-	"version": "1.0.1",
+	"name": "display-webgl-shader",
+	"version": "1.0.2",
 	"description": "Display a WebGL shader",
 	"author": "Zebra North",
-	"license": "Proprietary",
+	"license": "GPLv3",
 	"main": "build/index.js",
 	"scripts": {
 		"build": "wp-scripts build",
