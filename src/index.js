@@ -25,7 +25,7 @@ import save from './save';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-registerBlockType('zebra-north/webgl-shader', {
+registerBlockType('zebra-north/display-webgl-shader', {
 	/**
 	 * @see ./edit.js
 	 */

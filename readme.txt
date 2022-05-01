@@ -4,7 +4,7 @@ Donate link:       https://paypal.me/zebranorth
 Tags:              block, shader, shadertoy, webgl, webgl2, opengl, graphics
 Requires at least: 5.8.0
 Tested up to:      5.9.0
-Stable tag:        1.0.2
+Stable tag:        1.0.3
 Requires PHP:      7.0
 License:           GPLv3
 License URI:       https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -42,6 +42,11 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord)
 1. A shader in action.
 
 == Changelog ==
+
+= 1.0.3 =
+
+Fix missing rename from "WebGL Shader" to "Display WebGL Shader".
+Breaking change: The ID and CSS class on the canvas have been renamed.
 
 = 1.0.2 =
 

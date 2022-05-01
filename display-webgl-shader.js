@@ -283,8 +283,8 @@ function webglShader(fragmentShaderSource)
     }
 
     // Create a <canvas> element on which to draw the shader.
-    const canvasId = 'webgl-shader-' + id++;
-    document.write('<canvas id="' + canvasId + '" class="zebra-north-webgl-shader" width="640" height="360"></canvas>')
+    const canvasId = 'display-webgl-shader-' + id++;
+    document.write('<canvas id="' + canvasId + '" class="zebra-north-display-webgl-shader" width="640" height="360"></canvas>')
 
     // Initialise the shader when the page has finished loading.
     window.addEventListener('DOMContentLoaded', () => main(canvasId, getVertexShaderSource(), getFragmentShaderSource(fragmentShaderSource)));

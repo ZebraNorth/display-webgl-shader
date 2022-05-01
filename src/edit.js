@@ -31,12 +31,13 @@ import { parseWithAttributeSchema } from '@wordpress/blocks';
  *
  * @return {WPElement} Element to render.
  */
-export default function Edit({ attributes, setAttributes }) {
+export default function Edit({ attributes, setAttributes })
+{
 	return (
 		<div {...useBlockProps()}>
 			<TextareaControl
-				label={ __('WebGL Shader Source Code', 'webgl-shader') }
-				value={ attributes.sourceCode }
+				label={__('WebGL Shader Source Code', 'display-webgl-shader')}
+				value={attributes.sourceCode}
 				onChange={(val) => setAttributes({ sourceCode: val })}
 			/>
 		</div>

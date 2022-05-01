@@ -1,12 +1,17 @@
 {
 	"apiVersion": 2,
 	"name": "zebra-north/display-webgl-shader",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"title": "Display WebGL Shader",
 	"category": "media",
 	"icon": "format-video",
 	"description": "Display a WebGL fragment shader compatible with Shadertoy",
-	"keywords": ["webgl", "shader", "glsl", "opengl"],
+	"keywords": [
+		"webgl",
+		"shader",
+		"glsl",
+		"opengl"
+	],
 	"supports": {
 		"html": false
 	},

@@ -1,6 +1,6 @@
 {
 	"name": "display-webgl-shader",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Display a WebGL shader",
 	"author": "Zebra North",
 	"license": "GPLv3",
@@ -19,6 +19,6 @@
 		"@wordpress/i18n": "^4.2.1"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^17.1.0"
+		"@wordpress/scripts": "^22.5.0"
 	}
 }
